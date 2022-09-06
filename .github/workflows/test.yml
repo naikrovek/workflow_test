@@ -1,0 +1,26 @@
+name: Interrogate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  get-answers:
+    runs-on: [ self-hosted, macos ]
+    steps:
+    - name: whoami
+      run: whoami
+
+    - name: ls /Users/admin/
+      run: ls -la /Users/admin/
+      
+    - name: ls /Users/admin/actions-runner/
+      run: ls -la /Users/admin/actions-runner/
+      
+    - name: set
+      run: set
+    
+    - name: pwd
+      run: pwd
+
+    - name: ls
+      run: ls -laR
