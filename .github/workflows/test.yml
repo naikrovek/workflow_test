@@ -24,3 +24,87 @@ jobs:
 
     - name: ls
       run: ls -laR
+
+  get-answers-2:
+    runs-on: [ self-hosted, macos ]
+    steps:
+    - name: whoami
+      run: whoami
+
+    - name: ls /Users/admin/
+      run: ls -la /Users/admin/
+      
+    - name: ls /Users/admin/actions-runner/
+      run: ls -la /Users/admin/actions-runner/
+      
+    - name: set
+      run: set
+    
+    - name: pwd
+      run: pwd
+
+    - name: ls
+      run: ls -laR
+
+  get-answers-3:
+    runs-on: [ self-hosted, macos ]
+    steps:
+    - name: whoami
+      run: whoami
+
+    - name: ls /Users/admin/
+      run: ls -la /Users/admin/
+      
+    - name: ls /Users/admin/actions-runner/
+      run: ls -la /Users/admin/actions-runner/
+      
+    - name: set
+      run: set
+    
+    - name: pwd
+      run: pwd
+
+    - name: ls
+      run: ls -laR
+
+  get-answers-4:
+    runs-on: [ self-hosted, macos ]
+    steps:
+    - name: whoami
+      run: whoami
+
+    - name: ls /Users/admin/
+      run: ls -la /Users/admin/
+      
+    - name: ls /Users/admin/actions-runner/
+      run: ls -la /Users/admin/actions-runner/
+      
+    - name: set
+      run: set
+    
+    - name: pwd
+      run: pwd
+
+    - name: ls
+      run: ls -laR
+
+  get-answers-5:
+    runs-on: [ self-hosted, macos ]
+    steps:
+    - name: whoami
+      run: whoami
+
+    - name: ls /Users/admin/
+      run: ls -la /Users/admin/
+      
+    - name: ls /Users/admin/actions-runner/
+      run: ls -la /Users/admin/actions-runner/
+      
+    - name: set
+      run: set
+    
+    - name: pwd
+      run: pwd
+
+    - name: ls
+      run: ls -laR
